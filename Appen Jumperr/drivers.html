@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<link rel="stylesheet" href="CSS/drivers.css">
+</head>
+
+<body>
+<div class="flex-container"><h1>Drivers</h1>
+<p>Disse biler skal den samme vej som dig</p>
+
+<div class="box1">
+<img src="Images/jumperonlineofflinebillede.png" alt="Jumper offline icon"><img class="star" src="Images/tegning2%20til%20sikkerhed%20siden%20f%C3%A6rdig%202%20version%203.png" alt="Jumper offline icon"><a img src="Images/jumperonlineofflinebillede.png" alt="Jumper offline icon" href="driverprofil.html">
+    Camilla Jensen
+</a>
+<img 
+src="Images/jumperonlineofflinebillede.png" alt="Jumper offline icon"><img class="star" src="Images/tegning2%20til%20sikkerhed%20siden%20f%C3%A6rdig%202%20version%203.png" alt="Jumper offline icon">
+</div>
+<div class="box1">
+<a href="driverprofil.html">
+    Silje Nymark</a>
+    </div>
+
+<div class="box1">
+<img src="Images/jumperonlineofflinebillede.png" alt="Jumper offline icon"><img class="star" src="Images/tegning2%20til%20sikkerhed%20siden%20f%C3%A6rdig%202%20version%203.png" alt="Jumper offline icon"><a href="driverprofil.html" href="url">
+    Kristoffer Poulsen</a>
+    </div>
+
+<div class="box1">
+<img src="Images/jumperonlineofflinebillede.png" alt="Jumper offline icon"><img class="star" src="Images/tegning2%20til%20sikkerhed%20siden%20f%C3%A6rdig%202%20version%203.png" alt="Jumper offline icon"><a href="driverprofil.html">
+    Louise Bækkelund</a>
+    </div>
+</div>
+
+<template name="example">
+ There are currently {{usersOnlineCount}} users online.
+<h1>List of Users online </h1>
+  <ul>
+   {{#each usersOnline}}
+   <li> {{username}}</li>
+   {{/each}}
+  </ul>
+</template>
+
+<div class="flex-container4">
+
+<button class="footnav" onclick="window.location.href = 'jumper.html';"><img src="Images/searchicon.png"></button>
+<button class="footnav" onclick="window.location.href = 'favcars.html';"><img src="Images/caricon.png"></button>
+<button class="footnav" onclick="window.location.href = 'chat.html';"><img src="Images/chaticon.png"></button>
+<button class="footnav" onclick="window.location.href = 'profil.html';"><img src="Images/manicon.png"></button>
+
+</div>
+
+
+</body>
+</html>

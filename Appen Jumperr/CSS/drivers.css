@@ -1,0 +1,63 @@
+* {
+margin: 0%;
+background-color: #a4d0cc;
+}
+
+/*fonts*/
+h1 {
+color: #35535e;
+font-family: "Holtwood One SC";
+}
+
+h2 {
+color: #35535e;
+font-family: "Holtwood One SC";
+}
+
+p {
+color: #35535e;
+font-family: "Holtwood One SC";
+}
+
+a {
+font-family: "Holtwood One SC";
+color: #35535e;
+}
+
+.flex-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.box1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 2%;
+align-items: center;
+}
+
+.box1 img {
+width: 5%;
+height: 5%;
+}
+
+ .flex-container4{
+display: flex;
+flex-wrap: nowrap;
+position: fixed;
+bottom: 0;
+width:100%;
+}
+
+.footnav {
+width: 25%;
+padding: 13px 10px;
+background-image: image(searhicon);
+}
+
+img {
+width: 25%;
+}
